@@ -1,12 +1,12 @@
 
 <mat-grid-list cols="{{Column}}" rowHeight="1:1">
-  <!--<mat-grid-tile class="title" [colspan]="Column">-->
-    <!--Grenadine-->
-  <!--</mat-grid-tile>-->
+  <mat-grid-tile class="title" [colspan]="Column">
+    Grenadine
+  </mat-grid-tile>
   <mat-grid-tile *ngFor="let Photo of Photos">
     <img src="{{Photo}}" alt="">
   </mat-grid-tile>
-  <!--<mat-grid-tile class="Donate" [colspan]="Column">-->
-      <!--Donate Here!-->
-  <!--</mat-grid-tile>-->
+  <mat-grid-tile class="Donate" [colspan]="Column">
+      Donate Here!
+  </mat-grid-tile>
 </mat-grid-list>
